@@ -1,11 +1,18 @@
+import React from "react";
 
-
-function App() {
+function Registro() {
     return (
       <div className="App">
+        <div className="registro">
+        <h2>Suscribite</h2>
+        
+
+
+</div>
+        
         
       </div>
     );
   }
   
-  export default App;
+  export default Registro;
