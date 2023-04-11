@@ -1,12 +1,18 @@
 import './App.css';
-import Footer from "./componnents/Footer.js";
+import React from 'react';
+import Footer from "./PiedePagina";
+
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      < Footer />
+      <Footer/>
+     
+      
       
     </div>
   );
