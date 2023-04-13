@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Footer from "./PiedePagina";
+import Footer from "./componnent/PiedePagina";
 
 
 
