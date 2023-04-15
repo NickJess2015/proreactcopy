@@ -1,6 +1,9 @@
 import React from "react";
-
 import styled from "styled-components";
+
+const List = styled.ul`
+list-style:none;
+`
 
 
 
@@ -12,27 +15,27 @@ function Links() {
               <div className="row">
                <div className="footer-col">
                 <h4>Tienda</h4>
-                  <ul>
-                    <li><a href=""></a>Alacena</li>
-                    <li><a href=""></a>Bebidas</li>
+                  <List>
+                    <li ><a href=""></a>Alacena</li >
+                    <li ><a href=""></a>Bebidas</li >
                     <li><a href=""></a>Refrigerados</li>
-                    </ul>
+                    </List>
                   </div>
                 <div className="footer-col">
                   <h4>Nosotros</h4>
-                    <ul>
+                    <List>
                     <li><a href=""></a>¿Quienes somos?</li>
                     <li><a href=""></a>¿Como funciona?</li>
                     <li><a href=""></a>Politicas de devolucion</li>
-                    </ul>
+                    </List>
                   </div>
                   <div className="footer-col">
                 <h4>Contacto</h4>
-                  <ul>
+                  <List>
                     <li><a href=""></a>+541178889032</li>
                     <li><a href=""></a>veganfood@gmail.com</li>
                     <li><a href=""></a>Flores, Buenos Aires</li>
-                    </ul>
+                    </List>
                   </div>
                 </div>
             </div>

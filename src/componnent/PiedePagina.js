@@ -6,6 +6,15 @@ import Metodo from "./Metpag";
 import styled from "styled-components";
 
 
+const Fondo = styled.div`
+padding: 70px 0;
+background-color:#24262b;
+`
+const Contenpri = styled.div`
+max-width:1170px;
+background-color: red;
+margin:auto;
+`
 
 
 
@@ -16,11 +25,11 @@ import styled from "styled-components";
 function Footer() {
     return (
       <footer>
-      <div className="App">
-        <div className="contenedor-principal">
+      <Fondo className="App">
+        <Contenpri className="contenedor-principal">
         <Links/>
         <Redes/>
-        </div>
+        </Contenpri>
         <div className="metodo-pago">
           <Metodo/>
         </div>
@@ -36,7 +45,7 @@ function Footer() {
                 
             
                   
-        </div>
+        </Fondo>
         </footer>
       );
   } 
