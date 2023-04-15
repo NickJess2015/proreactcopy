@@ -8,11 +8,11 @@ import styled from "styled-components";
 
 const Fondo = styled.div`
 padding: 70px 0;
-background-color:#24262b;
+background-color:#ADF288;
 `
 const Contenpri = styled.div`
 max-width:1170px;
-background-color: red;
+background-color: #ADF288;
 margin:auto;
 `
 
