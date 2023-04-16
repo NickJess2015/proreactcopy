@@ -3,6 +3,7 @@ import Redes from "./Redes";
 import Links from "./Links";
 import Copy from "./Copyright";
 import Metodo from "./Metpag";
+import Logo from "./Logo";
 import styled from "styled-components";
 
 
@@ -15,6 +16,8 @@ max-width:1170px;
 background-color: #ADF288;
 margin:0 50px 0  0;
 display:flex
+
+}
 `
 
 
@@ -28,6 +31,7 @@ function Footer() {
       <footer>
       <Fondo className="App">
         <Contenpri className="contenedor-principal">
+        <Logo/>
         <Links/>
         <Redes/>
         </Contenpri>

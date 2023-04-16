@@ -14,6 +14,7 @@ const Footercol = styled.div`
 width: 25%;
 padding: 0  15px;
 
+
 `
 const H4 = styled.h4`
 font-size :22px;
@@ -66,14 +67,7 @@ function Links() {
       <div className = "footer">
             <div className="contenedor">
               <Row className="row">
-               <Footercol className="footer-col">
-                <H4>Tienda</H4>
-                  <List>
-                    <Listli ><A href=".links">Alacena</A></Listli>
-                    <Listli ><A href=".links">Bebidas</A></Listli >
-                    <Listli><A href=".links">Refrigerados</A></Listli>
-                    </List>
-                  </Footercol>
+              
                 <Footercol className="footer-col">
                   <H4>Nosotros</H4>
                     <List>
