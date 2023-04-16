@@ -5,7 +5,7 @@ import {faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import {  faTiktok} from '@fortawesome/free-brands-svg-icons';
 import styled from "styled-components";
-
+/*Titulo */
 const H4 = styled.h4`
 font-size :22px;
 color: #ffffff :
@@ -25,6 +25,7 @@ font-family: 'Hammersmith One', sans-serif;
   width: 60px;
   }
 `
+/*Link con el icono */
 const A = styled.a`
 display:inline-block;
 height: 55px;
@@ -43,6 +44,7 @@ font-size:40px;
   backgrund-color:#fffffff;
 }
 `
+/*div general de las redes */
 const Soc= styled.div`
 margin-bottom: 15px;
 

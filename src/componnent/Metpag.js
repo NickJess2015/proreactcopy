@@ -7,22 +7,18 @@ import Cab from "./imagenes/cabal.png";
 import Shop from "./imagenes/shopping.png";
 import Nar from "./imagenes/tarjeta naranja.png";
 import Din from "./imagenes/Diners-Club-International-logo.jpg";
-
 import styled from "styled-components";
-
-
+/*Tamaño de logos de tarjetas */
 const Img = styled.img`
  height:50px;
  width:100px;
-
-
 `
+/*Principal div */
 const Met= styled.div`
 display:flex;
 margin-left : 10%;
-
-
 `
+/*Contenedor de Logos */
 const Tarj=styled.div`
  margin: 10px  20px 60px 70px;
  text-align: center;
@@ -30,12 +26,7 @@ const Tarj=styled.div`
 const H2= styled.div`
 margin-right:5%;
 text-align: 100px;
-
 `
-
-
-
-
 
 function Metodo() {
     return (

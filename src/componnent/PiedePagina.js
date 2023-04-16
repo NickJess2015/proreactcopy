@@ -7,37 +7,17 @@ import Metodo from "./Metpag";
 import Logo from "./Logo";
 import styled from "styled-components";
 
-
-
-
+/*Body  */
 const Fondo = styled.div`
 padding: 70px 0;
 background-color:#74CB7E ;
-
-
-}
-
 `
+/*Contenedor de Logo,Links,Redes */
 const Contenpri = styled.div`
 max-width:1400px;
 background-color: #ADF288;
 display:flex
-
- 
-
-}
-
-
-
 `
-
-
-
-
-
-
-
-
 function Footer() {
     return (
       <footer>

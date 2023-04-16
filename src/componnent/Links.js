@@ -1,12 +1,13 @@
 import React from "react";
 import "./estilos.css";
 import styled from "styled-components";
-
+/* Contenedor de las listas*/
 const List = styled.ul`
 list-style:none;
 text-align: center ;
 margin: 0  50px 30px 0 ;
 `
+/*Filas */
 const Row =styled.div`
 display:flex;
 flex-wrap:wrap;
@@ -19,6 +20,7 @@ const Footercol = styled.div`
 
 
 `
+/*Titulos */
 const H4 = styled.h4`
 font-size :22px;
 color: #ffffff :
@@ -36,15 +38,15 @@ font-family: 'Hammersmith One', sans-serif;
   height: 2px;
   box-sizing: border-box;
   width: 60px;
-  
-}
+  }
 `
+/*Formato de cada lista */
 const Listli =styled.li`
-
 margin-bottom: 20px;
 font-family: 'Hammersmith One', sans-serif;
 
 `
+/* Links*/
 const A =styled.a`
 font-size: 20px ;
 text-transform:capitalize ;
@@ -58,20 +60,12 @@ display:block;
   padding-left:3px;
 }
 `
-
-
-
-
-
-
-
 function Links() {
     return (
       <div className = "footer">
             <div className="contenedor">
               <Row >
-              
-                <Footercol className="footer-links">
+                  <Footercol className="footer-links">
                   <H4>Nosotros</H4>
                     <List>
                     <Listli><A href="">¿Quienes somos?</A></Listli>
@@ -83,7 +77,7 @@ function Links() {
                 <H4>Contacto</H4>
                   <List>
                     <Listli><A href="">+541178889032</A></Listli>
-                    <Listli><A href="">veganfood@gmail.com</A></Listli>
+                    <Listli><A href="">Cherish-life@gmail.com</A></Listli>
                     <Listli><A href="">Flores, Buenos Aires</A></Listli>
                     </List>
                   </Footercol>

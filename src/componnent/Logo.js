@@ -1,7 +1,7 @@
 import React from "react";
 import Vegan from "./imagenes/IMG_8962.JPG";
 import styled from "styled-components";
-
+/*Estilo del logo */
 const Img = styled.img`
 height:250px   ;
 width:  250px  ;
@@ -19,27 +19,12 @@ font-size:40px;
   color:#bbbbbb;
   backgrund-color:#bbbbbb;
 `
-
-
-
 function Logo() {
     return (
       <div className="App">
         <div className="Logo">
         <Img src={Vegan}></Img> 
-
-
-
-
-
-
-
-
         </div>
-        
-       
-       
-        
         
       </div>
     );
