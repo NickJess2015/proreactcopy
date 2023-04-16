@@ -30,13 +30,13 @@ display:inline-block;
 height: 55px;
 width: 55px;
 background-color:#ffffff;
-margin-right:10px;
-margin:20px 15px 15px 0;
+margin-right:30px;
+margin:20px 20px 15px 0;
 text-align:center;
 line-height:50px;
 border-radius:50%;
 color:#4C9255  ;
-transition:all 0.0s ease;
+transition:all 0.5s ease;
 font-size:40px;
 &:hover{
   color:#bbbbbb;

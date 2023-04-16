@@ -17,6 +17,21 @@ const Img = styled.img`
 
 
 `
+const Met= styled.div`
+display:flex;
+margin-left : 10%;
+
+
+`
+const Tarj=styled.div`
+ margin: 10px  20px 60px 70px;
+ text-align: center;
+`
+const H2= styled.div`
+margin-right:5%;
+text-align: 100px;
+
+`
 
 
 
@@ -24,9 +39,9 @@ const Img = styled.img`
 
 function Metodo() {
     return (
-      <div className="met">
-        <div className="estilomet"><h2>Metodo de pago</h2></div>
-        <div className="img">
+      <Met className="met">
+        <H2 className="estilomet"><h2>Metodo de pago</h2></H2>
+        <Tarj className="img">
           <Img src={Visa}></Img>
           <Img src={Master}></Img>
           <Img src={Amex}></Img>
@@ -35,14 +50,14 @@ function Metodo() {
           <Img src={Shop}></Img>
           <Img src={Nar}></Img>
           <Img src={Din}></Img>
-          </div>
+          </Tarj>
 
         
        
        
         
         
-      </div>
+      </Met>
     );
   }
   

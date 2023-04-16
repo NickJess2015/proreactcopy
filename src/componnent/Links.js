@@ -8,7 +8,8 @@ const Row =styled.div`
 display:flex;
 flex-wrap:wrap;
 text-align: center;
-margin:0 60px 0  0 ;
+margin:0 100px 0  0 ;
+margin:0;
 `
 const Footercol = styled.div`
 width: 25%;
@@ -73,7 +74,7 @@ function Links() {
                     <List>
                     <Listli><A href="">¿Quienes somos?</A></Listli>
                     <Listli><A href="">¿Como funciona?</A></Listli>
-                    <Listli><A href="">Politica de devolucion</A></Listli>
+                    <Listli><A href="">Nuestra historia</A></Listli>
                     </List>
                   </Footercol>
                   <Footercol className="footer-col">

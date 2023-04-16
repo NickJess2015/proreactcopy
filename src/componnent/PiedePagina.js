@@ -12,10 +12,11 @@ padding: 70px 0;
 background-color:#74CB7E ;
 `
 const Contenpri = styled.div`
-max-width:1170px;
+max-width:1400px;
 background-color: #ADF288;
-margin:0 50px 0  0;
+margin:0 0 100px  0;
 display:flex
+
 
 }
 `

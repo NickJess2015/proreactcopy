@@ -1,20 +1,39 @@
 import React from "react";
 import styled from "styled-components";
 
+const Foobel= styled.div`
+font-size :22px;
+color: #ffffff :
+text-transform:capitalize;
+margin-bottom: 0;
+font-weight: 500;
+position:relative;
+font-family: 'Hammersmith One', sans-serif;
+`
+const Dat = styled.div`
+margin-left: 50%;
+`
+const Links = styled.div`
+
+margin-right: 70%;
+
+
+`
+
 
 
 
 function Copy() {
     return (
       <div className="App">
-        <div className="sb_footer-below">
+        <Foobel className="sb_footer-below">
                   <div className="sb_footer-copyright">
-                  <div>
+                  <Dat>
                     @{new Date().getFullYear()}CodeInn.
                     All right reserved.
-                   </div>
+                   </Dat>
                    
-                   <div className="sb_footer-below-links">
+                   <Links className="sb_footer-below-links">
                     <a href="./terms"><div>
                       <p>Terminos y Condiciones</p>
                      </div></a>
@@ -26,14 +45,14 @@ function Copy() {
                       <p>Security</p>
                       </div>
                      </a>
-                     </div>
+                     </Links>
                      
                     
                  
                  
                  </div>
                  
-                 </div>
+                 </Foobel>
 
         
        
