@@ -29,8 +29,8 @@ function Copy() {
         <Foobel className="sb_footer-below">
                   <div className="sb_footer-copyright">
                   <Dat>
-                    @{new Date().getFullYear()}CodeInn.
-                    All right reserved.
+                    Veganfood@{new Date().getFullYear()}|
+                    Todos los derechos reservados.
                    </Dat>
                    
                    <Links className="sb_footer-below-links">

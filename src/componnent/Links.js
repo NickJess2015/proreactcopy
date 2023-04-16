@@ -1,8 +1,11 @@
 import React from "react";
+import "./estilos.css";
 import styled from "styled-components";
 
 const List = styled.ul`
 list-style:none;
+text-align: center ;
+margin: 0  50px 30px 0 ;
 `
 const Row =styled.div`
 display:flex;
@@ -12,8 +15,7 @@ margin:0 100px 0  0 ;
 margin:0;
 `
 const Footercol = styled.div`
-width: 25%;
-padding: 0  15px;
+
 
 
 `
@@ -39,7 +41,7 @@ font-family: 'Hammersmith One', sans-serif;
 `
 const Listli =styled.li`
 
-margin-bottom: 10px;
+margin-bottom: 20px;
 font-family: 'Hammersmith One', sans-serif;
 
 `
@@ -53,7 +55,7 @@ color:#406F26;
 display:block;
 &:hover{
   color:#bbbbbb;
-  padding-left:8px;
+  padding-left:3px;
 }
 `
 
@@ -67,9 +69,9 @@ function Links() {
     return (
       <div className = "footer">
             <div className="contenedor">
-              <Row className="row">
+              <Row >
               
-                <Footercol className="footer-col">
+                <Footercol className="footer-links">
                   <H4>Nosotros</H4>
                     <List>
                     <Listli><A href="">¿Quienes somos?</A></Listli>
@@ -77,7 +79,7 @@ function Links() {
                     <Listli><A href="">Nuestra historia</A></Listli>
                     </List>
                   </Footercol>
-                  <Footercol className="footer-col">
+                  <Footercol >
                 <H4>Contacto</H4>
                   <List>
                     <Listli><A href="">+541178889032</A></Listli>

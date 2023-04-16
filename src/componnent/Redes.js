@@ -30,7 +30,7 @@ display:inline-block;
 height: 55px;
 width: 55px;
 background-color:#ffffff;
-margin-right:30px;
+margin-right:20px;
 margin:20px 20px 15px 0;
 text-align:center;
 line-height:50px;
@@ -43,12 +43,17 @@ font-size:40px;
   backgrund-color:#fffffff;
 }
 `
+const Soc= styled.div`
+margin-bottom: 15px;
+
+
+`
 
 
 function Redes () {
     return (
       <div className="App">
-         <div className="socialmedia">
+         <Soc className="socialmedia">
           <H4> Sigamos Conectados</H4>
          <A href="./redes"> <FontAwesomeIcon icon={faFacebook} /></A>
          <A href="./redes"> <FontAwesomeIcon icon={faTwitter} /></A>
@@ -57,7 +62,7 @@ function Redes () {
           
           
                  
-                </div>
+                </Soc>
                 
                 
                 
