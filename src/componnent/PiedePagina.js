@@ -10,12 +10,12 @@ import styled from "styled-components";
 /*Body  */
 const Fondo = styled.div`
 padding: 70px 0;
-background-color:#74CB7E ;
+background-color:#1CA12D  ;
 `
 /*Contenedor de Logo,Links,Redes */
 const Contenpri = styled.div`
 max-width:1400px;
-background-color: #ADF288;
+background-color: #4BDC5D  ;
 display:flex
 `
 function Footer() {
@@ -33,16 +33,8 @@ function Footer() {
         <hr></hr>
         <div className="copyright">
           <Copy/>
-
-
-        </div>
-          
-          
-          
-                
-            
-                  
-        </Fondo>
+          </div>
+          </Fondo>
         </footer>
       );
   } 

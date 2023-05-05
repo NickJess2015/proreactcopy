@@ -77,7 +77,7 @@ function Links() {
                 <H4>Contacto</H4>
                   <List>
                     <Listli><A href="">+541178889032</A></Listli>
-                    <Listli><A href="">Cherish-life@gmail.com</A></Listli>
+                    <Listli><A href="">Vegan-Food@gmail.com</A></Listli>
                     <Listli><A href="">Flores, Buenos Aires</A></Listli>
                     </List>
                   </Footercol>

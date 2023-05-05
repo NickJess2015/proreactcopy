@@ -19,14 +19,21 @@ font-size:40px;
   color:#bbbbbb;
   backgrund-color:#bbbbbb;
 `
+const Icon = styled.div`
+margin-left: 30px;
+
+
+
+
+`
 function Logo() {
     return (
-      <div className="App">
+      <Icon className="App">
         <div className="Logo">
-        <Img src={Vegan}></Img> 
+         <Img src={Vegan} />
         </div>
         
-      </div>
+      </Icon>
     );
   }
   

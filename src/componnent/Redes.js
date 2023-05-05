@@ -1,11 +1,46 @@
 import React from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' ;
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
-import {faTwitter} from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import {  faTiktok} from '@fortawesome/free-brands-svg-icons';
-import styled from "styled-components";
-/*Titulo */
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faFacebook} from "@fortawesome/free-brands-svg-icons";
+import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {faTiktok} from "@fortawesome/free-brands-svg-icons";
+import  styled  from "styled-components";
+
+const UL = styled.ul`
+list-style: none;
+display: flex;
+justify-content : center;
+
+`
+
+const A = styled.a`
+
+position: relative;
+width: 60px;
+height: 60px;
+display: inline-block;
+border-radius: 10px;
+display : flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: #1CA12D;
+border-color: #fff;
+font-size: 2em;
+border: 1px solid rgba(255,255,255,.4);
+border-right: 1px solid rgba (255,255,255, .2);
+border-bottom: 1px solid rgba (255,255,255, .2);
+box-shadow: 0 5px 45px rgba (0,0,0, .1);
+backdrop-filter : blur(2px);
+transition : .5s;
+overflow: hidden;
+margin-left: 15px;
+&:hover{
+  color:#ffffff;
+  background-color: #bbbbbb;
+}
+
+`
 const H4 = styled.h4`
 font-size :22px;
 color: #ffffff :
@@ -24,57 +59,30 @@ font-family: 'Hammersmith One', sans-serif;
   box-sizing: border-box;
   width: 60px;
   }
-`
-/*Link con el icono */
-const A = styled.a`
-display:inline-block;
-height: 55px;
-width: 55px;
-background-color:#ffffff;
-margin-right:20px;
-margin:20px 20px 15px 0;
-text-align:center;
-line-height:50px;
-border-radius:50%;
-color:#4C9255  ;
-transition:all 0.5s ease;
-font-size:40px;
-&:hover{
-  color:#bbbbbb;
-  backgrund-color:#fffffff;
-}
-`
-/*div general de las redes */
-const Soc= styled.div`
-margin-bottom: 15px;
 
 
 `
 
 
-function Redes () {
+function Redes() {
     return (
-      <div className="App">
-         <Soc className="socialmedia">
-          <H4> Sigamos Conectados</H4>
-         <A href="./redes"> <FontAwesomeIcon icon={faFacebook} /></A>
-         <A href="./redes"> <FontAwesomeIcon icon={faTwitter} /></A>
-         <A href="./redes"> <FontAwesomeIcon icon={faInstagram} /></A>
-         <A href="./redes"> <FontAwesomeIcon icon={faTiktok} /></A>   
-          
-          
-                 
-                </Soc>
-                
-                
-                
-        
-       
-        
-        
+        <section>
+        <div className="App">
+        <div className="App-n"></div>
+        <div className="App-y"></div>
+        <H4> Sigamos conectados</H4>
+        <UL>
+            <li><A><FontAwesomeIcon icon={faFacebook}/></A></li>
+            <li><A><FontAwesomeIcon icon={faTwitter}/></A></li>
+            <li><A><FontAwesomeIcon icon={faInstagram}/></A></li>
+            <li><A><FontAwesomeIcon icon={faTiktok}/></A></li>
+            
+
+
+       </UL>
       </div>
-    );
-  }
+      </section>
+    )   
+}
   
   export default Redes;
-  

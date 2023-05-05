@@ -7,13 +7,7 @@ const Contpri= styled.div`
 margin:0;
 padding:0;
 box-sizing:border-box;
-
 `
-
-
-
-
-
 function App() {
   return (
     <Contpri className="App">

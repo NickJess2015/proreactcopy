@@ -22,7 +22,7 @@ function Copy() {
         <Foobel className="sb_footer-below">
                   <div className="sb_footer-copyright">
                   <Dat>
-                    Cherish life@{new Date().getFullYear()}|
+                    Vegan Food@{new Date().getFullYear()}|
                     Todos los derechos reservados.
                    </Dat>
                   </div>
